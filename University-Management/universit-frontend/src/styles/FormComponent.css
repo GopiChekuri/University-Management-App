@@ -1,0 +1,31 @@
+.form-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .form-field {
+    margin-bottom: 10px;
+  }
+  .button-group button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .insert {
+    background-color: green;
+    color: white;
+  }
+  .update {
+    background-color: blue;
+    color: white;
+  }
+  .delete {
+    background-color: red;
+    color: white;
+  }
+  .search {
+    background-color: orange;
+    color: white;
+  }
+  

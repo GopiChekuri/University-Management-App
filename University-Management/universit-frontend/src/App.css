@@ -1,0 +1,142 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2a3d66;
+}
+
+/* Table Selection */
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* Form Container */
+.form-container {
+  background-color: #e6f2ff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #2a3d66;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form Inputs and Labels */
+label {
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 5px;
+  color: #1f4f82;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #1f4f82;
+  outline: none;
+}
+
+/* Action Buttons */
+button {
+  background-color: #1f4f82;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #163e6f;
+}
+
+/* Table Container */
+.table-container {
+  margin-top: 30px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #1f4f82;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 10px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  select,
+  button {
+    width: 100%;
+  }
+}
